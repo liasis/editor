@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302A35A918B6CE6F005F7AC5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302A35A818B6CE6F005F7AC5 /* Cocoa.framework */; };
+		302A35B318B6CE6F005F7AC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 302A35B118B6CE6F005F7AC5 /* InfoPlist.strings */; };
+		302A35C618B6CED0005F7AC5 /* PLGotoLineWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302A35BC18B6CED0005F7AC5 /* PLGotoLineWindowController.m */; };
+		302A35C718B6CED0005F7AC5 /* PLGotoLineWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302A35BD18B6CED0005F7AC5 /* PLGotoLineWindowController.xib */; };
+		302A35C818B6CED0005F7AC5 /* PLEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302A35C018B6CED0005F7AC5 /* PLEditorViewController.m */; };
+		302A35C918B6CED0005F7AC5 /* PLEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302A35C118B6CED0005F7AC5 /* PLEditorViewController.xib */; };
+		302A35CA18B6CED0005F7AC5 /* PLTextEditorBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 302A35C318B6CED0005F7AC5 /* PLTextEditorBackgroundView.m */; };
+		302A35CB18B6CED0005F7AC5 /* PLTextEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 302A35C518B6CED0005F7AC5 /* PLTextEditorView.m */; };
+		302A362318B6D266005F7AC5 /* LiasisKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302A362218B6D266005F7AC5 /* LiasisKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		302A35A518B6CE6F005F7AC5 /* Editor.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Editor.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		302A35A818B6CE6F005F7AC5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		302A35AB18B6CE6F005F7AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		302A35AC18B6CE6F005F7AC5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		302A35AD18B6CE6F005F7AC5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		302A35B018B6CE6F005F7AC5 /* Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Editor-Info.plist"; sourceTree = "<group>"; };
+		302A35B218B6CE6F005F7AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		302A35B418B6CE6F005F7AC5 /* Editor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Editor-Prefix.pch"; sourceTree = "<group>"; };
+		302A35BB18B6CED0005F7AC5 /* PLGotoLineWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLGotoLineWindowController.h; sourceTree = "<group>"; };
+		302A35BC18B6CED0005F7AC5 /* PLGotoLineWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLGotoLineWindowController.m; sourceTree = "<group>"; };
+		302A35BD18B6CED0005F7AC5 /* PLGotoLineWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLGotoLineWindowController.xib; sourceTree = "<group>"; };
+		302A35BF18B6CED0005F7AC5 /* PLEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLEditorViewController.h; sourceTree = "<group>"; };
+		302A35C018B6CED0005F7AC5 /* PLEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLEditorViewController.m; sourceTree = "<group>"; };
+		302A35C118B6CED0005F7AC5 /* PLEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLEditorViewController.xib; sourceTree = "<group>"; };
+		302A35C218B6CED0005F7AC5 /* PLTextEditorBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTextEditorBackgroundView.h; sourceTree = "<group>"; };
+		302A35C318B6CED0005F7AC5 /* PLTextEditorBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTextEditorBackgroundView.m; sourceTree = "<group>"; };
+		302A35C418B6CED0005F7AC5 /* PLTextEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTextEditorView.h; sourceTree = "<group>"; };
+		302A35C518B6CED0005F7AC5 /* PLTextEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTextEditorView.m; sourceTree = "<group>"; };
+		302A362218B6D266005F7AC5 /* LiasisKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiasisKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302A35A218B6CE6F005F7AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302A362318B6D266005F7AC5 /* LiasisKit.framework in Frameworks */,
+				302A35A918B6CE6F005F7AC5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302A359C18B6CE6F005F7AC5 = {
+			isa = PBXGroup;
+			children = (
+				302A35AE18B6CE6F005F7AC5 /* Editor */,
+				302A35A718B6CE6F005F7AC5 /* Frameworks */,
+				302A35A618B6CE6F005F7AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302A35A618B6CE6F005F7AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302A35A518B6CE6F005F7AC5 /* Editor.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302A35A718B6CE6F005F7AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302A362218B6D266005F7AC5 /* LiasisKit.framework */,
+				302A35A818B6CE6F005F7AC5 /* Cocoa.framework */,
+				302A35AA18B6CE6F005F7AC5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302A35AA18B6CE6F005F7AC5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302A35AB18B6CE6F005F7AC5 /* Foundation.framework */,
+				302A35AC18B6CE6F005F7AC5 /* CoreData.framework */,
+				302A35AD18B6CE6F005F7AC5 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		302A35AE18B6CE6F005F7AC5 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				302A35BA18B6CED0005F7AC5 /* Goto Line */,
+				302A35BE18B6CED0005F7AC5 /* Text View */,
+				302A35AF18B6CE6F005F7AC5 /* Supporting Files */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		302A35AF18B6CE6F005F7AC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				302A35B018B6CE6F005F7AC5 /* Editor-Info.plist */,
+				302A35B118B6CE6F005F7AC5 /* InfoPlist.strings */,
+				302A35B418B6CE6F005F7AC5 /* Editor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		302A35BA18B6CED0005F7AC5 /* Goto Line */ = {
+			isa = PBXGroup;
+			children = (
+				302A35BB18B6CED0005F7AC5 /* PLGotoLineWindowController.h */,
+				302A35BC18B6CED0005F7AC5 /* PLGotoLineWindowController.m */,
+				302A35BD18B6CED0005F7AC5 /* PLGotoLineWindowController.xib */,
+			);
+			path = "Goto Line";
+			sourceTree = "<group>";
+		};
+		302A35BE18B6CED0005F7AC5 /* Text View */ = {
+			isa = PBXGroup;
+			children = (
+				302A35BF18B6CED0005F7AC5 /* PLEditorViewController.h */,
+				302A35C018B6CED0005F7AC5 /* PLEditorViewController.m */,
+				302A35C118B6CED0005F7AC5 /* PLEditorViewController.xib */,
+				302A35C218B6CED0005F7AC5 /* PLTextEditorBackgroundView.h */,
+				302A35C318B6CED0005F7AC5 /* PLTextEditorBackgroundView.m */,
+				302A35C418B6CED0005F7AC5 /* PLTextEditorView.h */,
+				302A35C518B6CED0005F7AC5 /* PLTextEditorView.m */,
+			);
+			path = "Text View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302A35A418B6CE6F005F7AC5 /* Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302A35B718B6CE6F005F7AC5 /* Build configuration list for PBXNativeTarget "Editor" */;
+			buildPhases = (
+				302A35A118B6CE6F005F7AC5 /* Sources */,
+				302A35A218B6CE6F005F7AC5 /* Frameworks */,
+				302A35A318B6CE6F005F7AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Editor;
+			productName = Editor;
+			productReference = 302A35A518B6CE6F005F7AC5 /* Editor.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302A359D18B6CE6F005F7AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liasis;
+			};
+			buildConfigurationList = 302A35A018B6CE6F005F7AC5 /* Build configuration list for PBXProject "Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 302A359C18B6CE6F005F7AC5;
+			productRefGroup = 302A35A618B6CE6F005F7AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302A35A418B6CE6F005F7AC5 /* Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302A35A318B6CE6F005F7AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302A35C918B6CED0005F7AC5 /* PLEditorViewController.xib in Resources */,
+				302A35C718B6CED0005F7AC5 /* PLGotoLineWindowController.xib in Resources */,
+				302A35B318B6CE6F005F7AC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302A35A118B6CE6F005F7AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302A35CB18B6CED0005F7AC5 /* PLTextEditorView.m in Sources */,
+				302A35C618B6CED0005F7AC5 /* PLGotoLineWindowController.m in Sources */,
+				302A35C818B6CED0005F7AC5 /* PLEditorViewController.m in Sources */,
+				302A35CA18B6CED0005F7AC5 /* PLTextEditorBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		302A35B118B6CE6F005F7AC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302A35B218B6CE6F005F7AC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302A35B518B6CE6F005F7AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		302A35B618B6CE6F005F7AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		302A35B818B6CE6F005F7AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Liasis-gmvlilcbfxgysudsmqayhtqlgreh/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Editor/Editor-Prefix.pch";
+				INFOPLIST_FILE = "Editor/Editor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		302A35B918B6CE6F005F7AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Liasis-gmvlilcbfxgysudsmqayhtqlgreh/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Editor/Editor-Prefix.pch";
+				INFOPLIST_FILE = "Editor/Editor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302A35A018B6CE6F005F7AC5 /* Build configuration list for PBXProject "Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302A35B518B6CE6F005F7AC5 /* Debug */,
+				302A35B618B6CE6F005F7AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302A35B718B6CE6F005F7AC5 /* Build configuration list for PBXNativeTarget "Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302A35B818B6CE6F005F7AC5 /* Debug */,
+				302A35B918B6CE6F005F7AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302A359D18B6CE6F005F7AC5 /* Project object */;
+}
